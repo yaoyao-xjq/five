@@ -1,0 +1,24 @@
+﻿生成启动时间为 2018/7/11 20:16:21。
+     1>项目“E:\project\Five\Five.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I./includes /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Five.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Engine.cpp
+         Engine.cpp
+     1>e:\project\five\includes\basic\threadbase.h(61): warning C4244: “参数”: 从“time_t”转换到“DWORD”，可能丢失数据
+     1>Engine.cpp(1585): warning C4244: “初始化”: 从“time_t”转换到“long”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\Five\Release\Five.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:./lib GdiPlus.lib basic2V9.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\project\Five\Release\Five.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\Five\Release\Five.lib" /MACHINE:X86 /SAFESEH Release\Five.res
+         Release\CalculateTask.obj
+         Release\Engine.obj
+         Release\Five.obj
+         Release\FiveDlg.obj
+         Release\stdafx.obj
+         Release\Task.obj
+         Release\ThreadAI.obj
+         正在生成代码
+         已完成代码的生成
+         Five.vcxproj -> E:\project\Five\Release\Five.exe
+     1>已完成生成项目“E:\project\Five\Five.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.37
